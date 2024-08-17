@@ -33,6 +33,8 @@ public class EverestSettingsConstants {
     public static final String CLOCK_STYLE = "clock_style";
     public static final String QS_PANEL_ROW_COUNT = "qs_panel_row_count";
     public static final String QS_PANEL_ROW_COUNT_LANDSCAPE = "qs_panel_row_count_landscape";
+    public static final String QS_WIDGETS_PHOTO_SHOWCASE = "qs_widgets_photo_showcase_enabled";
+    public static final String QS_WIDGETS_PHOTO_SHOWCASE_IMG_PATH = "qs_widgets_photo_showcase_path";
 
     public static final String[] SYSTEM_SETTINGS_KEYS = {
         SETTINGS_THEME_STYLE,
@@ -49,7 +51,9 @@ public class EverestSettingsConstants {
         QS_COLORED_ICONS,
         CLOCK_STYLE,
         QS_PANEL_ROW_COUNT,
-        QS_PANEL_ROW_COUNT_LANDSCAPE
+        QS_PANEL_ROW_COUNT_LANDSCAPE,
+        QS_WIDGETS_PHOTO_SHOWCASE,
+        QS_WIDGETS_PHOTO_SHOWCASE_IMG_PATH
     };
 }
 

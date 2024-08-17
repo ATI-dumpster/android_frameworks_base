@@ -4,6 +4,18 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
+
+    <!-- QS tile -->
+    <style name="Theme.QS.QuickControls" parent="@style/Theme.MaterialComponents.DayNight">
+        <item name="android:fontFamily">@*android:string/config_bodyFontFamily</item>
+        <item name="android:textSize">@dimen/qs_control_tile_text_size</item>
+    </style>
+
+    <style name="quickControlsOverlay" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">100dp</item>
+    </style>
+
     <!-- Pixel navbar -->
     <style name="DotStyle">
         <item name="android:layout_width">wrap_content</item>
